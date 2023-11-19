@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Klinik</title>
+	<!-- icon link  -->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+	<!-- tailwindcss link  -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.3.1/dist/full.min.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<!-- navbar part design  -->
+	<nav class="">
+	<div class="navber">
+		<div class="brand">
+			<a href=""><span>E</span>-commerce</a>
+		</div>
+		<ul>
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="#product">Product</a></li>
+		  <li><a href="#About">About</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+		<ul>
+			<!-- add to cart design  -->
+				<div class="flex items-center gap-6 text-white">
+				  <div class="dropdown dropdown-end">
+					<label tabindex="0" class="btn btn-ghost btn-circle">
+					  <div class="indicator w-10 h-10 mx-auto hover:text-cyan-400 transition-all hover:scale-90">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-full w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+						<span class="badge badge-sm indicator-item">8</span>
+					  </div>
+					</label>
+					<div tabindex="0" class="mt-3 z-[1] card card-compact dropdown-content w-72 h-auto bg-slate-600 border shadow">
+					  <div class=" w-60 h-auto" id="addShopingCart">
+						
+						
+					  </div>
+					  <div class="text-center">
+						<button class="btn btn-primary btn-block w-40 mx-auto">View cart</button>
+					  </div>
+					</div>
+				  </div>
+				  <div class="dropdown dropdown-end">
+					<div class="dropdown dropdown-end">
+						<label tabindex="0" class="btn btn-ghost btn-circle avatar">
+						  <div class="w-22 h-22 outline hover:outline-teal-400 border-blue-100 rounded-full transform hover:scale-95 transition-all ">
+							<img alt="Tailwind CSS Navbar component border-blue-100 w-full h-full hover:scale-90 transition-all" src="img/habib1.jpeg" />
+						  </div>
+						</label>
+						<ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+						  <li>
+							<a class="justify-between">
+							  Profile
+							  <span class="badge">New</span>
+							</a>
+						  </li>
+						  <li><a>Settings</a></li>
+						  <li><a>Logout</a></li>
+						</ul>
+					  </div>
+					<ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-600 border outline rounded-box w-52">
+					  <li>
+						<a class="justify-between">
+						  Profile
+						  <span class="badge">New</span>
+						</a>
+					  </li>
+					  <li><a>Settings</a></li>
+					  <li><a>Logout</a></li>
+					</ul>
+				  </div>
+				</div>
+		</ul>
+	</div>
+	</nav>
+	
+	<!-- header part design  -->
+	<header>
+		<img class="w-full h-[650px] overflow-hidden relative" src="https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+		<div class="absolute bottom-72 left-[40%]">
+			<pre class="font-serif font-semibold text-7xl mb-1 text-center text-black">e-Commerce <br>                           Website</pre>
+			<pre class="font-serif text-3xl text-center">An e-commerce <br>                           website is one that <br> allows people to buy <br>                                       and sell physical goods</pre>
+		</div>
+	</header>
+	<!-- main part design  -->
+	<main class="max-w-7xl mx-auto">
+     <header>   
+		<div class="text-center mt-8 decoration-dashed underline">
+			<h2 class="text-4xl font-serif ">Image For e-Commerce site</h2>
+		</div>
+		<div id="productContainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
+ 
+		</div >
+        <div class="text-center mt-8 mb-8">
+			<button class="btn btn-neutral uppercase">show more</button>
+		</div>
+	 </header>
+	</main>
+	<!-- footer section design  -->
+
+	<footer class="footer p-10 bg-base-200 text-base-content text-xl font-serif">
+		<navbar>
+		  <header class="footer-title">Services</header> 
+		  <a class="link link-hover">Branding</a>
+		  <a class="link link-hover">Design</a>
+		  <a class="link link-hover">Marketing</a>
+		  <a class="link link-hover">Advertisement</a>
+		</navbar> 
+		<navbar>
+		  <header class="footer-title">Company</header> 
+		  <a class="link link-hover">About us</a>
+		  <a class="link link-hover">Contact</a>
+		  <a class="link link-hover">Jobs</a>
+		  <a class="link link-hover">Press kit</a>
+		</navbar> 
+		<navbar>
+		  <header class="footer-title">Legal</header> 
+		  <a class="link link-hover">Terms of use</a>
+		  <a class="link link-hover">Privacy policy</a>
+		  <a class="link link-hover">Cookie policy</a>
+		</navbar> 
+		<form>
+		  <header class="footer-title">Newsletter</header> 
+		  <fieldset class="form-control w-80">
+			<label class="label">
+			  <span class="label-text">Enter your email address</span>
+			</label> 
+			<div class="join">
+			  <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+			  <button class="btn btn-primary join-item">Subscribe</button>
+			</div>
+		  </fieldset>
+		</form>
+	  </footer>
+	
+	<script src="main.js"></script>
+</body>
+</html>

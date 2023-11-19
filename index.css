@@ -1,0 +1,69 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;0,800;0,900;1,300;1,400;1,500&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	
+}
+nav {
+	width: 100vw;
+	height: 10%;
+	background: #000;
+	box-shadow: 25px 5px 10px rgba(225, 8, 8, 0.25);
+}
+nav .navber {
+	width: 85%;
+	height: auto;
+	margin: auto;
+
+}
+.navber {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin: auto;
+	padding: 1rem;
+}
+
+nav .navber ul {
+	display: flex;
+	gap: 3rem;
+	align-items: center;
+
+}
+nav .navber ul li a {
+	color: #ffff;
+	font-size: 30px;
+	font-family: serif;
+}
+nav .navber a {
+font-size: 32px;
+color: #ffff;
+cursor: pointer;
+font-family: serif;
+}
+nav .navber a span {
+	color: aqua;
+	font-size: 30px;
+}
+
+nav .navber ul li:hover {
+  transform: scale(0.90);
+  transition: all 0.5s ease;
+}
+nav .navber .brand:hover {
+	transform: scale(.90);
+	transition: all 0.5s ease;
+}
+nav .navber a:hover {
+	color: aqua;
+   transform: scale();
+}
+nav .navber img {
+	/* border: 3px solid rgb(38, 127, 134) */
+	border-radius: 50px;
+}
+
+
